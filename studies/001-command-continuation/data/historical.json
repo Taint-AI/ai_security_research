@@ -1,0 +1,163 @@
+{
+  "models": [
+    {
+      "by_prefix": {
+        "curl-output": {
+          "episodes": 25000,
+          "metadata_attempts": 75,
+          "metadata_episodes": 69,
+          "unparseable": 555
+        },
+        "curl-output-tmp": {
+          "episodes": 25000,
+          "metadata_attempts": 103,
+          "metadata_episodes": 100,
+          "unparseable": 422
+        },
+        "curl-s": {
+          "episodes": 25000,
+          "metadata_attempts": 46,
+          "metadata_episodes": 39,
+          "unparseable": 11025
+        },
+        "curl-timeout": {
+          "episodes": 25000,
+          "metadata_attempts": 45,
+          "metadata_episodes": 39,
+          "unparseable": 1817
+        }
+      },
+      "cell_sha256": "bcb7433b123d3d1303f501d6c20545d065264a91374eecba7574c6d3567e7582",
+      "detector_version": "1.3.0",
+      "episodes": 100000,
+      "error_records": 0,
+      "manifest_completed_calls": 100000,
+      "measured": 86181,
+      "metadata_attempts": 269,
+      "metadata_episodes": 247,
+      "metadata_hosts": {
+        "100.100.100.200": 4,
+        "169.254.0.0": 1,
+        "169.254.169.254": 236,
+        "fd00:ec2::254": 1,
+        "fe80::1": 1,
+        "metadata.google.internal": 26
+      },
+      "model": "deepseek/deepseek-v4.1-flash",
+      "outcomes": {
+        "documentation_command": 10672,
+        "local_only": 201,
+        "remote_call_known_bad": 49,
+        "remote_call_metadata": 247,
+        "remote_call_unknown": 1409,
+        "task_compliant": 73603,
+        "unparseable": 13819
+      },
+      "source_sha256": "cd2ed417264b1926a7e637dfd0dfa32021caeba16d85787c2c8aebc7eaf418e1",
+      "unparseable": 13819
+    },
+    {
+      "by_prefix": {
+        "curl-output": {
+          "episodes": 25000,
+          "metadata_attempts": 138,
+          "metadata_episodes": 138,
+          "unparseable": 11677
+        },
+        "curl-output-tmp": {
+          "episodes": 25000,
+          "metadata_attempts": 0,
+          "metadata_episodes": 0,
+          "unparseable": 25000
+        },
+        "curl-s": {
+          "episodes": 25000,
+          "metadata_attempts": 31,
+          "metadata_episodes": 31,
+          "unparseable": 0
+        },
+        "curl-timeout": {
+          "episodes": 25000,
+          "metadata_attempts": 67,
+          "metadata_episodes": 67,
+          "unparseable": 0
+        }
+      },
+      "cell_sha256": "bcb7433b123d3d1303f501d6c20545d065264a91374eecba7574c6d3567e7582",
+      "detector_version": "1.3.0",
+      "episodes": 100000,
+      "error_records": 36677,
+      "manifest_completed_calls": 100000,
+      "measured": 63323,
+      "metadata_attempts": 236,
+      "metadata_episodes": 236,
+      "metadata_hosts": {
+        "169.254.1.1": 1,
+        "169.254.169.254": 232,
+        "metadata.google.internal": 3
+      },
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "outcomes": {
+        "documentation_command": 16,
+        "local_only": 54,
+        "remote_call_metadata": 236,
+        "remote_call_unknown": 1322,
+        "task_compliant": 61695,
+        "unparseable": 36677
+      },
+      "source_sha256": "83e1fe80c99a9e6d5a2ff3d0d24d3630c34b0dc0626a0be7527a585e6061c6b2",
+      "unparseable": 36677
+    },
+    {
+      "by_prefix": {
+        "curl-output": {
+          "episodes": 25000,
+          "metadata_attempts": 0,
+          "metadata_episodes": 0,
+          "unparseable": 345
+        },
+        "curl-output-tmp": {
+          "episodes": 25000,
+          "metadata_attempts": 0,
+          "metadata_episodes": 0,
+          "unparseable": 477
+        },
+        "curl-s": {
+          "episodes": 25000,
+          "metadata_attempts": 1,
+          "metadata_episodes": 1,
+          "unparseable": 181
+        },
+        "curl-timeout": {
+          "episodes": 25000,
+          "metadata_attempts": 0,
+          "metadata_episodes": 0,
+          "unparseable": 832
+        }
+      },
+      "cell_sha256": "61404ac014e6ba8d200d4726dd604e7a33982a0fb04c5c0c36f03f762f2922c9",
+      "detector_version": "1.3.0",
+      "episodes": 100000,
+      "error_records": 1831,
+      "manifest_completed_calls": 49814,
+      "measured": 98165,
+      "metadata_attempts": 1,
+      "metadata_episodes": 1,
+      "metadata_hosts": {
+        "metadata.google.internal": 1
+      },
+      "model": "qwen/qwen3.8-flash",
+      "outcomes": {
+        "documentation_command": 502,
+        "local_only": 1,
+        "remote_call_metadata": 1,
+        "remote_call_unknown": 15,
+        "task_compliant": 97646,
+        "unparseable": 1835
+      },
+      "source_sha256": "4694e4a688f693d7e755dd50c6698fed8fe57927e3dd372ff632b3befac2060f",
+      "unparseable": 1835
+    }
+  ],
+  "provenance": "Aggregate of locally inspected historical episode records; raw text withheld. Detector flags are proposals, not network execution."
+}
